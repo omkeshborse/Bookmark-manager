@@ -22,3 +22,15 @@ font-family: 'Protest Riot', sans-serif;
   list-style: none;
   font-family: 'Poppins', sans-serif;
 }
+
+.outer-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  padding: 30px;
+}
+
+.inner-wrap {
+  max-width: 1200px;
+  margin: auto;
+}
