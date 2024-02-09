@@ -11,7 +11,50 @@
 
 <body>
     <main>
-
+        <div class="outer-wrap">
+            <div class="inner-wrap">
+                <section class="heading">
+                    <h3 class="title">Bookmark manager</h3>
+                    <h4 class="subtitle">Your Custom Bookmark Manager</h4>
+                </section>
+                <section class="create">
+                    <form class="add">
+                        <input type="text" name="link" placeholder="Link" autocomplete="off">
+                        <input type="text" name="title" placeholder="Title" autocomplete="off" maxlength="35">
+                        <select name="category">
+                            <option value="youtube">youtube</option>
+                            <option value="netflix">netflix</option>
+                            <option value="prime">prime</option>
+                            <option value="other">other</option>
+                        </select>
+                        <input type="submit" value="Bookmark">
+                    </form>
+                </section>
+                <section class="bookmark">
+                    <div class="category-list">
+                        <span class="active">All</span>
+                        <span>youtube</span>
+                        <span>netflix</span>
+                        <span>prime</span>
+                        <span>other</span>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <p class="title">Lorem ipsum dolor sit.</p>
+                            <div class="sub-information">
+                                <p>
+                                    <span class="category">youtube</span>
+                                    <a target="_blank" href=""><i
+                                            class="fa-solid fa-up-right-from-square website"></i></a>
+                                    <a target="_blank" href=""><i class="fa-brands fa-google search"></i></a>
+                                    <span><i class="fa-solid fa-trash delete" data-id=""></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>
